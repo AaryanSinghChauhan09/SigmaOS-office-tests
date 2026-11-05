@@ -1,0 +1,16 @@
+[component]
+name = "SigmaOS-office-tests"
+tier = 3
+stability = "scaffold"
+language = "rust"
+description = "SigmaOS office test corpus — compatibility round-trips, accessibility checks, print/PDF validation, and regression tests"
+upstream = []
+
+[contract]
+provides = ["office-compatibility-corpus"]
+depends_on = []
+
+[maturity]
+status = "Scaffold"
+test_evidence = "Compiles"
+next_milestone = "Verification test suite"

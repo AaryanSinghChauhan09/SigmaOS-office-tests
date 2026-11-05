@@ -1,0 +1,9 @@
+[package]
+name = "sigmaos_office_tests"
+version = "0.1.0"
+edition = "2021"
+description = "SigmaOS office test corpus — compatibility round-trips, accessibility checks, print/PDF validation, and regression tests"
+
+[lib]
+name = "sigmaos_office_tests"
+path = "src/lib.rs"
