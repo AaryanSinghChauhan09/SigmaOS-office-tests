@@ -11,6 +11,6 @@ provides = ["office-compatibility-corpus"]
 depends_on = []
 
 [maturity]
-status = "Scaffold"
+status = "Implemented"
 test_evidence = "Compiles"
 next_milestone = "Verification test suite"
